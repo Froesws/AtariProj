@@ -119,6 +119,7 @@ set obj [get_filesets sources_1]
 set files [list \
  [file normalize "${origin_dir}/Atari2600.srcs/sources_1/new/clk_divider.v" ]\
  [file normalize "${origin_dir}/Atari2600.srcs/sources_1/new/atariTop.v" ]\
+ [file normalize "${origin_dir}/Atari2600.srcs/sources_1/new/acumulador.v" ]\
 ]
 set added_files [add_files -fileset sources_1 $files]
 
