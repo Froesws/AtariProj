@@ -1,0 +1,4 @@
+Regras
+
+Nome do módulo: <tipo do módulo><tamanho do barramento>_<informação extra>
+ex.: mux8b_2To1
