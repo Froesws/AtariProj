@@ -5,7 +5,7 @@
 // 
 // Create Date: 01/17/2021 06:20:02 PM
 // Design Name: 
-// Module Name: mux4To1
+// Module Name: indexReg8b
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,14 +20,28 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux4To1 ( 
-    input i1, 
-    input i2, 
-    input i3, 
-    input i4, 
-    input s0, s1,
-    output out); 
+module indexReg8b ( 
+    input [7:0] dataIn, 
+    input load, 
+    input busEn, 
+    input clk, 
+    input rst,
+    output [7:0] dataOut); 
 
- assign out = s1 ? (s0 ? i4 : i3) : (s0 ? i2 : i1); 
+wire [7:0] muxToReg;
 
+mux8b_2To1 Mux2to1(
+    .i0(dataOut), 
+    .i1(dataIn), 
+    .s0(load),
+    .out(muxToReg)
+);
+
+reg8b Reg8b(
+    .reset(rst),
+    .clk(clk),
+    .D(muxToReg),
+    .Q(dataOut)
+    );
+    
 endmodule
