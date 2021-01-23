@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log clk_wiz_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl" );
+         "-log atariTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source atariTop.tcl" );
 
 
 

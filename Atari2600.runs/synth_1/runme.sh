@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Projetos/atari/AtariProj/Atari2600.runs/clk_wiz_0_synth_1'
+HD_PWD='D:/Projetos/atari/AtariProj/Atari2600.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log clk_wiz_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+EAStep vivado -log atariTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source atariTop.tcl
