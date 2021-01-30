@@ -1,0 +1,1359 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 15488
+License: Customer
+
+Current time: 	Sat Jan 30 12:47:35 BRST 2021
+Time zone: 	Brasilia Standard Time (America/Sao_Paulo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 19 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Programas/xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Programas/xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Marcos Abreu
+User home directory: C:/Users/Marcos Abreu
+User working directory: D:/Projetos/atari/AtariProj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Programas/xilinx/Vivado
+HDI_APPROOT: D:/Programas/xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Programas/xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Programas/xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Marcos Abreu/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Marcos Abreu/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Marcos Abreu/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Programas/xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Projetos/atari/AtariProj/vivado.log
+Vivado journal file location: 	D:/Projetos/atari/AtariProj/vivado.jou
+Engine tmp dir: 	D:/Projetos/atari/AtariProj/.Xil/Vivado-15488-DESKTOP-OO4RPG7
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programas/xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: D:\Xilinx\Xilinx.lic;27000@172.16.65.24
+XILINX_DSP: D:/Programas/xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Programas/xilinx/Vivado/2018.3
+XILINX_SDK: D:/Programas/xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Programas/xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Programas/xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 572 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1800 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 103 MB (+105114kb) [00:00:22]
+// [Engine Memory]: 564 MB (+439994kb) [00:00:22]
+// bx (cp):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1405 ms.
+// Opening Vivado Project: D:\Projetos\atari\AtariProj\Atari2600.xpr. Version: Vivado v2018.3 
+// Tcl Message: open_project D:/Projetos/atari/AtariProj/Atari2600.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 576 MB. GUI used memory: 45 MB. Current time: 1/30/21, 12:47:37 PM BRST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 44 MB. Current time: 1/30/21, 12:47:52 PM BRST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 712 MB (+125274kb) [00:00:55]
+// WARNING: HEventQueue.dispatchEvent() is taking  11522 ms.
+// Tcl Message: open_project D:/Projetos/atari/AtariProj/Atari2600.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/git/AtariProj' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programas/xilinx/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 718 MB. GUI used memory: 51 MB. Current time: 1/30/21, 12:48:16 PM BRST
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 742.465 ; gain = 139.875 
+// Project name: Atari2600; location: D:/Projetos/atari/AtariProj; part: xc7vx485tffg1157-1
+dismissDialog("Open Project"); // bx (cp)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 774ms to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 53 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+// Elapsed time: 102 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// [GUI Memory]: 109 MB (+1254kb) [00:03:56]
+// [Engine Memory]: 779 MB (+33238kb) [00:03:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 779 MB. GUI used memory: 51 MB. Current time: 1/30/21, 12:51:08 PM BRST
+// Elapsed time: 25 seconds
+String[] filenames31467 = {"D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/accumulator8b.v", "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/alu8b.v", "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder1b.v", "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder8b.v", "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/indexReg8b.v", "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/reg8b.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 35 seconds
+dismissDialog("Add Sources"); // c (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// c (cp): Add Sources: addNotify
+// bx (c):  Add Sources  : addNotify
+// Tcl Message: add_files -norecurse {D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder1b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/alu8b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/accumulator8b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/reg8b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/indexReg8b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder8b.v} 
+dismissDialog("Add Sources"); // bx (c)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+// PAPropertyPanels.initPanels (accumulator8b.v) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/accumulator8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/accumulator8b.v 
+dismissDialog("Remove Sources"); // bx (aE)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1392 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 799 MB. GUI used memory: 54 MB. Current time: 1/30/21, 12:52:17 PM BRST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/fullAdder8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/fullAdder8b.v 
+dismissDialog("Remove Sources"); // bx (aE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder4b (fullAdder4b.v)]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder4b (fullAdder4b.v)]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder4b (fullAdder4b.v)]", 4, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder8b (fullAdder8b.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder4b (fullAdder4b.v)]", 4, true, true, false, false, false, false); // B (D, cp) - Shift Key - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder4b (fullAdder4b.v)]", 4, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder8b.v] -no_script -reset -force -quiet 
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/fullAdder4b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder8b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/fullAdder4b.v} 
+dismissDialog("Remove Sources"); // bx (aE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 5); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 5); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu8b (alu8b.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu8b (alu8b.v)]", 6, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu8b (alu8b.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu8b (alu8b.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder1b (fullAdder1b.v)]", 9, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder1b (fullAdder1b.v)]", 10, false, true, false, false, false, false); // B (D, cp) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fullAdder1b (fullAdder1b.v)]", 10, false, true, false, false, true, false); // B (D, cp) - Shift Key - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder1b.v] -no_script -reset -force -quiet 
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/fullAdder1b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/fullAdder1b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/fullAdder1b.v} 
+dismissDialog("Remove Sources"); // bx (aE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 8); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v)]", 10, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_4To1 (mux8b_4To1.v)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ula8b_CD (ula8b_CD.v)]", 21, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tristate8b (tristate8b.v)]", 20, false, true, false, false, false, false); // B (D, cp) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tristate8b (tristate8b.v)]", 20, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tristate8b.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/ula8b_CD.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  {D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tristate8b.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/ula8b_CD.v} 
+dismissDialog("Remove Sources"); // bx (aE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 5); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 6); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 6, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 6); // B (D, cp)
+selectCodeEditor("mux_tb.v", 57, 143); // cl (w, cp)
+selectCodeEditor("mux_tb.v", 195, 354); // cl (w, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 6); // B (D, cp)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_4To1 (mux8b_4To1.v)]", 10, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_4To1 (mux8b_4To1.v)]", 10, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_4To1 (mux8b_4To1.v)]", 10, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_4To1 (mux8b_4To1.v)]", 10, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_4To1 (mux8b_4To1.v)]", 10, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_4To1.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_4To1.v 
+dismissDialog("Remove Sources"); // bx (aE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 19); // B (D, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("datapath.v", 68, 93); // cl (w, cp)
+selectCodeEditor("datapath.v", 68, 93, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), pc_reg : xil_defaultlib.program_counter]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v), pc : program_counter16b (program_counter16b.v)]", 21, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v), pc : program_counter16b (program_counter16b.v)]", 21, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v), pc : program_counter16b (program_counter16b.v)]", 21, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("program_counter16b.v", 159, 32); // cl (w, cp)
+selectCodeEditor("program_counter16b.v", 159, 32, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "program_counter16b.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "program_counter16b.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "program_counter16b.v", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 4); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter16b.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 4); // k (j, cp)
+selectCodeEditor("datapath.v", 67, 91); // cl (w, cp)
+selectCodeEditor("datapath.v", 67, 91, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 104, 138); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), acc_reg : register (register.v)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), acc_reg : register (register.v)]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v)]", 3); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "program_counter16b.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 4); // k (j, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v), Mux2to1 : mux8b_2To1 (mux8b_2To1.v)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v)]", 3, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/indexReg8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 116 MB (+1797kb) [00:10:33]
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/indexReg8b.v 
+dismissDialog("Remove Sources"); // bx (aE)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v), Reg8b : reg8b (reg8b.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v), Reg8b : reg8b (reg8b.v)]", 8, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, indexReg8b (indexReg8b.v)]", 7, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/indexReg8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/indexReg8b.v 
+dismissDialog("Remove Sources"); // bx (aE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_2To1 (mux8b_2To1.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_2To1 (mux8b_2To1.v)]", 8, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_2To1.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_2To1.v 
+dismissDialog("Remove Sources"); // bx (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 9, false); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 24, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 24, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 23, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 24, false); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 6); // k (j, cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu8b.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("datapath.v", 208, 197); // cl (w, cp)
+selectCodeEditor("datapath.v", 229, 244); // cl (w, cp)
+selectCodeEditor("datapath.v", 63, 164); // cl (w, cp)
+selectCodeEditor("datapath.v", 63, 164, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 122, 160); // cl (w, cp)
+selectCodeEditor("datapath.v", 122, 160, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 187, 231); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), x_reg : register (register.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), x_reg : register (register.v)]", 5, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("register.v", 101, 320); // cl (w, cp)
+selectCodeEditor("register.v", 101, 320, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+selectCodeEditor("datapath.v", 140, 209); // cl (w, cp)
+selectCodeEditor("datapath.v", 140, 209, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 86, 309); // cl (w, cp)
+selectCodeEditor("datapath.v", 86, 309, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 192, 312); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 139, 259); // cl (w, cp)
+selectCodeEditor("datapath.v", 139, 259, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 41, 243); // cl (w, cp)
+selectCodeEditor("datapath.v", 199, 332); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("datapath.v", 150, 345); // cl (w, cp)
+selectCodeEditor("datapath.v", 122, 314); // cl (w, cp)
+selectCodeEditor("datapath.v", 122, 314, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 199, 313); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 321); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 321); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 321); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 3, 87); // cl (w, cp)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("datapath.v", 890, 466); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 436, 345); // cl (w, cp)
+selectCodeEditor("datapath.v", 436, 345, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 429, 345); // cl (w, cp)
+selectCodeEditor("datapath.v", 429, 345); // cl (w, cp)
+selectCodeEditor("datapath.v", 455, 483); // cl (w, cp)
+selectCodeEditor("datapath.v", 370, 327); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 819 MB. GUI used memory: 59 MB. Current time: 1/30/21, 1:02:37 PM BRST
+selectCodeEditor("datapath.v", 424, 311); // cl (w, cp)
+selectCodeEditor("datapath.v", 514, 388); // cl (w, cp)
+selectCodeEditor("datapath.v", 98, 328); // cl (w, cp)
+selectCodeEditor("datapath.v", 177, 338); // cl (w, cp)
+selectCodeEditor("datapath.v", 87, 335); // cl (w, cp)
+selectCodeEditor("datapath.v", 87, 335, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 29, 333); // cl (w, cp)
+selectCodeEditor("datapath.v", 29, 333, false, false, false, false, true); // cl (w, cp) - Double Click
+// [Engine Memory]: 819 MB (+1320kb) [00:15:44]
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+selectCodeEditor("datapath.v", 48, 330); // cl (w, cp)
+selectCodeEditor("datapath.v", 48, 330, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu8b.v", 1); // k (j, cp)
+selectCodeEditor("alu8b.v", 63, 332); // cl (w, cp)
+selectCodeEditor("alu8b.v", 63, 332, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu8b.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu8b.v", 'c'); // cl (w, cp)
+selectCodeEditor("alu8b.v", 95, 335); // cl (w, cp)
+selectCodeEditor("alu8b.v", 47, 329); // cl (w, cp)
+typeControlKey((HResource) null, "alu8b.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu8b.v", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+selectCodeEditor("datapath.v", 42, 330); // cl (w, cp)
+selectCodeEditor("datapath.v", 0, 332); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 34, 335); // cl (w, cp)
+selectCodeEditor("datapath.v", 136, 380); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 342); // cl (w, cp)
+// Elapsed time: 180 seconds
+selectCodeEditor("datapath.v", 161, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 55, 276); // cl (w, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("datapath.v", 57, 378); // cl (w, cp)
+selectCodeEditor("datapath.v", 248, 433); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 273); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 273, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("datapath.v", 143, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 141, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 186, 416); // cl (w, cp)
+selectCodeEditor("datapath.v", 149, 434); // cl (w, cp)
+selectCodeEditor("datapath.v", 152, 434); // cl (w, cp)
+selectCodeEditor("datapath.v", 79, 381); // cl (w, cp)
+selectCodeEditor("datapath.v", 79, 381); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("datapath.v", 113, 374); // cl (w, cp)
+selectCodeEditor("datapath.v", 113, 374, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 79, 151); // cl (w, cp)
+selectCodeEditor("datapath.v", 76, 160); // cl (w, cp)
+selectCodeEditor("datapath.v", 166, 211); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 3); // k (j, cp)
+selectCodeEditor("register.v", 197, 435); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+selectCodeEditor("datapath.v", 55, 283); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("datapath.v", 102, 165); // cl (w, cp)
+selectCodeEditor("datapath.v", 102, 165, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 54, 278); // cl (w, cp)
+selectCodeEditor("datapath.v", 57, 296); // cl (w, cp)
+selectCodeEditor("datapath.v", 73, 310); // cl (w, cp)
+selectCodeEditor("datapath.v", 75, 315); // cl (w, cp)
+// Elapsed time: 50 seconds
+selectCodeEditor("datapath.v", 76, 317); // cl (w, cp)
+// Elapsed time: 44 seconds
+selectCodeEditor("datapath.v", 82, 332); // cl (w, cp)
+selectCodeEditor("datapath.v", 72, 332); // cl (w, cp)
+selectCodeEditor("datapath.v", 73, 332); // cl (w, cp)
+selectCodeEditor("datapath.v", 76, 326); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectCodeEditor("datapath.v", 116, 330); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 330, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 94, 349); // cl (w, cp)
+selectCodeEditor("datapath.v", 95, 349); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu8b.v", 1); // k (j, cp)
+selectCodeEditor("alu8b.v", 80, 310); // cl (w, cp)
+selectCodeEditor("alu8b.v", 80, 310, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("datapath.v", 92, 362); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("datapath.v", 82, 380); // cl (w, cp)
+selectCodeEditor("datapath.v", 95, 398); // cl (w, cp)
+selectCodeEditor("datapath.v", 88, 419); // cl (w, cp)
+selectCodeEditor("datapath.v", 52, 70); // cl (w, cp)
+selectCodeEditor("datapath.v", 52, 70, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 90, 419); // cl (w, cp)
+selectCodeEditor("datapath.v", 79, 79); // cl (w, cp)
+selectCodeEditor("datapath.v", 79, 79, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 123, 461); // cl (w, cp)
+selectCodeEditor("datapath.v", 123, 461, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 181, 469); // cl (w, cp)
+selectCodeEditor("datapath.v", 238, 481); // cl (w, cp)
+selectCodeEditor("datapath.v", 131, 422); // cl (w, cp)
+// Elapsed time: 25 seconds
+selectCodeEditor("datapath.v", 172, 344); // cl (w, cp)
+selectCodeEditor("datapath.v", 201, 437); // cl (w, cp)
+selectCodeEditor("datapath.v", 200, 376); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 343); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 343, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 112, 332); // cl (w, cp)
+selectCodeEditor("datapath.v", 124, 345); // cl (w, cp)
+selectCodeEditor("datapath.v", 124, 345, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("datapath.v", 66, 157); // cl (w, cp)
+selectCodeEditor("datapath.v", 66, 157, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 122 seconds
+selectCodeEditor("datapath.v", 227, 262); // cl (w, cp)
+selectCodeEditor("datapath.v", 201, 317); // cl (w, cp)
+selectCodeEditor("datapath.v", 179, 291); // cl (w, cp)
+selectCodeEditor("datapath.v", 175, 317); // cl (w, cp)
+selectCodeEditor("datapath.v", 160, 292); // cl (w, cp)
+selectCodeEditor("datapath.v", 156, 278); // cl (w, cp)
+selectCodeEditor("datapath.v", 163, 313); // cl (w, cp)
+selectCodeEditor("datapath.v", 157, 289); // cl (w, cp)
+selectCodeEditor("datapath.v", 152, 282); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("datapath.v", 172, 330); // cl (w, cp)
+selectCodeEditor("datapath.v", 134, 303); // cl (w, cp)
+selectCodeEditor("datapath.v", 102, 283); // cl (w, cp)
+selectCodeEditor("datapath.v", 107, 293); // cl (w, cp)
+selectCodeEditor("datapath.v", 96, 277); // cl (w, cp)
+selectCodeEditor("datapath.v", 115, 318); // cl (w, cp)
+selectCodeEditor("datapath.v", 115, 318, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 120, 342); // cl (w, cp)
+selectCodeEditor("datapath.v", 112, 332); // cl (w, cp)
+selectCodeEditor("datapath.v", 111, 332, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("datapath.v", 79, 321); // cl (w, cp)
+selectCodeEditor("datapath.v", 29, 311); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 93, 340); // cl (w, cp)
+selectCodeEditor("datapath.v", 128, 332); // cl (w, cp)
+selectCodeEditor("datapath.v", 110, 318); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 2, 331); // cl (w, cp)
+// Elapsed time: 110 seconds
+selectCodeEditor("datapath.v", 118, 364); // cl (w, cp)
+selectCodeEditor("datapath.v", 143, 331); // cl (w, cp)
+selectCodeEditor("datapath.v", 143, 331); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 140, 384); // cl (w, cp)
+selectCodeEditor("datapath.v", 187, 401); // cl (w, cp)
+selectCodeEditor("datapath.v", 182, 420); // cl (w, cp)
+selectCodeEditor("datapath.v", 40, 418); // cl (w, cp)
+selectCodeEditor("datapath.v", 929, 346); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 430, 264); // cl (w, cp)
+selectCodeEditor("datapath.v", 430, 264, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 438, 264); // cl (w, cp)
+selectCodeEditor("datapath.v", 438, 264, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("datapath.v", 89, 281); // cl (w, cp)
+selectCodeEditor("datapath.v", 89, 281, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 96, 284); // cl (w, cp)
+selectCodeEditor("datapath.v", 81, 284); // cl (w, cp)
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("datapath.v", 436, 262); // cl (w, cp)
+selectCodeEditor("datapath.v", 436, 262, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 68, 279); // cl (w, cp)
+selectCodeEditor("datapath.v", 68, 279, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 69, 270); // cl (w, cp)
+selectCodeEditor("datapath.v", 75, 274); // cl (w, cp)
+selectCodeEditor("datapath.v", 82, 275); // cl (w, cp)
+selectCodeEditor("datapath.v", 99, 291); // cl (w, cp)
+selectCodeEditor("datapath.v", 463, 348); // cl (w, cp)
+selectCodeEditor("datapath.v", 463, 348, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 452, 303); // cl (w, cp)
+selectCodeEditor("datapath.v", 113, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 113, 282, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 129, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 134, 279); // cl (w, cp)
+selectCodeEditor("datapath.v", 144, 279); // cl (w, cp)
+selectCodeEditor("datapath.v", 140, 278); // cl (w, cp)
+// Elapsed time: 56 seconds
+selectCodeEditor("datapath.v", 122, 283); // cl (w, cp)
+selectCodeEditor("datapath.v", 122, 283, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 137, 283); // cl (w, cp)
+selectCodeEditor("datapath.v", 149, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 146, 280); // cl (w, cp)
+selectCodeEditor("datapath.v", 143, 278); // cl (w, cp)
+selectCodeEditor("datapath.v", 139, 278); // cl (w, cp)
+selectCodeEditor("datapath.v", 106, 292); // cl (w, cp)
+selectCodeEditor("datapath.v", 106, 292, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("datapath.v", 100, 295); // cl (w, cp)
+selectCodeEditor("datapath.v", 100, 295, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("datapath.v", 105, 303); // cl (w, cp)
+selectCodeEditor("datapath.v", 105, 303, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 138, 319); // cl (w, cp)
+selectCodeEditor("datapath.v", 111, 318); // cl (w, cp)
+selectCodeEditor("datapath.v", 111, 317, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 141, 279); // cl (w, cp)
+selectCodeEditor("datapath.v", 104, 316); // cl (w, cp)
+selectCodeEditor("datapath.v", 104, 316, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("datapath.v", 108, 295); // cl (w, cp)
+selectCodeEditor("datapath.v", 105, 291); // cl (w, cp)
+selectCodeEditor("datapath.v", 105, 291, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 96, 315); // cl (w, cp)
+selectCodeEditor("datapath.v", 74, 126); // cl (w, cp)
+selectCodeEditor("datapath.v", 74, 126, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 75, 74); // cl (w, cp)
+selectCodeEditor("datapath.v", 75, 74, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("datapath.v", 264, 230); // cl (w, cp)
+selectCodeEditor("datapath.v", 942, 348); // cl (w, cp)
+selectCodeEditor("datapath.v", 132, 277); // cl (w, cp)
+selectCodeEditor("datapath.v", 132, 277, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 110, 316); // cl (w, cp)
+selectCodeEditor("datapath.v", 110, 316, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 105, 157); // cl (w, cp)
+selectCodeEditor("datapath.v", 105, 157, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 12 seconds
+selectCodeEditor("datapath.v", 106, 126); // cl (w, cp)
+selectCodeEditor("datapath.v", 106, 126, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("datapath.v", 97, 280); // cl (w, cp)
+selectCodeEditor("datapath.v", 108, 181); // cl (w, cp)
+selectCodeEditor("datapath.v", 108, 163); // cl (w, cp)
+selectCodeEditor("datapath.v", 112, 183); // cl (w, cp)
+selectCodeEditor("datapath.v", 102, 177); // cl (w, cp)
+selectCodeEditor("datapath.v", 95, 176); // cl (w, cp)
+// Elapsed time: 32 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 7, false); // B (D, cp)
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 8, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_B_ALU (mux8b_B_ALU.v)]", 9, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_B_ALU (mux8b_B_ALU.v)]", 9, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 37 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 12 seconds
+dismissFileChooser();
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // c (cp)
+selectCodeEditor("mux8b_B_ALU.v", 393, 284); // cl (w, cp)
+selectCodeEditor("mux8b_B_ALU.v", 43, 84); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_A_ALU (mux8b_A_ALU.v)]", 8, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("mux8b_A_ALU.v", 1, 42); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_A_ALU.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_A_ALU.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_A_ALU.v", 'c'); // cl (w, cp)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "mux8b_"); // Y (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "mux8b_ABH"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c (cp)
+// bx (cp):  Add Sources  : addNotify
+// Tcl Message: close [ open D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_ABH.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_ABH.v 
+// I (cp): Define Module: addNotify
+dismissDialog("Add Sources"); // bx (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Module"); // I (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ABH (mux8b_ABH.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ABH (mux8b_ABH.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 24, 489); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_ABH.v", 'v'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 56, 180); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 63, 206); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 53, 174); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 161, 161); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_ABH.v", 'v'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 1, 109); // cl (w, cp)
+// Elapsed time: 24 seconds
+selectCodeEditor("mux8b_ABH.v", 177, 109); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 177, 109, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("mux8b_ABH.v", 181, 112); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 178, 110); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 178, 110, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 185, 125); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 185, 125, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("mux8b_ABH.v", 185, 143); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 185, 143, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 206, 162); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 179, 142); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 179, 142, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 227, 161); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 227, 161, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 215, 161); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 232, 159); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("mux8b_ABH.v", 184, 213); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 128, 232); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 112, 227); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 112, 227, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 138, 227); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 230, 166); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 230, 166, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 144, 228); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 144, 228, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'v'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 171, 246); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 188, 106); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 188, 106, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 151, 304); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 154, 298); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 154, 298, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'v'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 176, 125); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 176, 125, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 236, 293); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 236, 293, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'v'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 223, 352); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 283, 331); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 89, 344); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 89, 344, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("mux8b_ABH.v", 186, 116); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 186, 116, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "mux8b_ABH.v", 'c'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 130, 350); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 130, 350, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "mux8b_ABH.v", 'v'); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 155, 372); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 71, 380); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 167, 384); // cl (w, cp)
+selectCodeEditor("mux8b_ABH.v", 148, 408); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux8b_B_ALU.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux8b_A_ALU.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "register.v", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("datapath.v", 24, 130); // cl (w, cp)
+selectCodeEditor("datapath.v", 24, 130, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 63, 130); // cl (w, cp)
+selectCodeEditor("datapath.v", 63, 130, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("datapath.v", 55, 181); // cl (w, cp)
+selectCodeEditor("datapath.v", 23, 224); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 19, 218); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 25, 225); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 819 MB. GUI used memory: 61 MB. Current time: 1/30/21, 1:32:37 PM BRST
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 143, 234); // cl (w, cp)
+selectCodeEditor("datapath.v", 15, 250); // cl (w, cp)
+selectCodeEditor("datapath.v", 60, 249); // cl (w, cp)
+selectCodeEditor("datapath.v", 60, 249, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("datapath.v", 80, 258); // cl (w, cp)
+selectCodeEditor("datapath.v", 91, 246); // cl (w, cp)
+selectCodeEditor("datapath.v", 59, 222); // cl (w, cp)
+selectCodeEditor("datapath.v", 59, 222, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("datapath.v", 62, 282); // cl (w, cp)
+selectCodeEditor("datapath.v", 46, 239); // cl (w, cp)
+selectCodeEditor("datapath.v", 46, 239, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 120, 258); // cl (w, cp)
+selectCodeEditor("datapath.v", 47, 263); // cl (w, cp)
+selectCodeEditor("datapath.v", 47, 263, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 67, 267); // cl (w, cp)
+selectCodeEditor("datapath.v", 67, 267, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 66, 265); // cl (w, cp)
+selectCodeEditor("datapath.v", 66, 265); // cl (w, cp)
+selectCodeEditor("datapath.v", 54, 281); // cl (w, cp)
+selectCodeEditor("datapath.v", 46, 276); // cl (w, cp)
+selectCodeEditor("datapath.v", 46, 276, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("datapath.v", 52, 277); // cl (w, cp)
+selectCodeEditor("datapath.v", 52, 277, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 52, 281); // cl (w, cp)
+selectCodeEditor("datapath.v", 49, 279); // cl (w, cp)
+selectCodeEditor("datapath.v", 49, 279, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 86, 289); // cl (w, cp)
+selectCodeEditor("datapath.v", 131, 289); // cl (w, cp)
+selectCodeEditor("datapath.v", 43, 298); // cl (w, cp)
+selectCodeEditor("datapath.v", 65, 294); // cl (w, cp)
+selectCodeEditor("datapath.v", 108, 309); // cl (w, cp)
+selectCodeEditor("datapath.v", 50, 318); // cl (w, cp)
+selectCodeEditor("datapath.v", 50, 318, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 146, 325); // cl (w, cp)
+selectCodeEditor("datapath.v", 124, 303); // cl (w, cp)
+selectCodeEditor("datapath.v", 77, 263); // cl (w, cp)
+selectCodeEditor("datapath.v", 77, 263, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 126, 312); // cl (w, cp)
+selectCodeEditor("datapath.v", 76, 313); // cl (w, cp)
+selectCodeEditor("datapath.v", 76, 313, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("datapath.v", 343, 303); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("datapath.v", 104, 433); // cl (w, cp)
+selectCodeEditor("datapath.v", 104, 433); // cl (w, cp)
+selectCodeEditor("datapath.v", 99, 174); // cl (w, cp)
+selectCodeEditor("datapath.v", 99, 174, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("datapath.v", 59, 176); // cl (w, cp)
+selectCodeEditor("datapath.v", 59, 176, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 174, 181); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+typeControlKey(null, null, 'z');
+selectCodeEditor("datapath.v", 81, 140); // cl (w, cp)
+selectCodeEditor("datapath.v", 81, 140, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 60, 194); // cl (w, cp)
+selectCodeEditor("datapath.v", 176, 140); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 25, 190); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 70, 192); // cl (w, cp)
+selectCodeEditor("datapath.v", 115, 194); // cl (w, cp)
+selectCodeEditor("datapath.v", 115, 194, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 115, 194); // cl (w, cp)
+selectCodeEditor("datapath.v", 114, 193); // cl (w, cp)
+selectCodeEditor("datapath.v", 202, 195); // cl (w, cp)
+selectCodeEditor("datapath.v", 162, 243); // cl (w, cp)
+selectCodeEditor("datapath.v", 162, 243, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 154, 319); // cl (w, cp)
+selectCodeEditor("datapath.v", 125, 294); // cl (w, cp)
+selectCodeEditor("datapath.v", 120, 291); // cl (w, cp)
+selectCodeEditor("datapath.v", 178, 309); // cl (w, cp)
+selectCodeEditor("datapath.v", 178, 309); // cl (w, cp)
+selectCodeEditor("datapath.v", 124, 298); // cl (w, cp)
+selectCodeEditor("datapath.v", 124, 298, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("datapath.v", 128, 349); // cl (w, cp)
+selectCodeEditor("datapath.v", 128, 349, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 142, 379); // cl (w, cp)
+selectCodeEditor("datapath.v", 62, 403); // cl (w, cp)
+selectCodeEditor("datapath.v", 62, 403, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 127, 384); // cl (w, cp)
+selectCodeEditor("datapath.v", 122, 411); // cl (w, cp)
+selectCodeEditor("datapath.v", 108, 296); // cl (w, cp)
+selectCodeEditor("datapath.v", 108, 296, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 65, 401); // cl (w, cp)
+selectCodeEditor("datapath.v", 65, 401, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 125, 91); // cl (w, cp)
+selectCodeEditor("datapath.v", 125, 91, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 169, 110); // cl (w, cp)
+selectCodeEditor("datapath.v", 176, 147); // cl (w, cp)
+selectCodeEditor("datapath.v", 156, 117); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("datapath.v", 143, 199); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 358); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 358, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 116, 348); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 348, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 113, 348); // cl (w, cp)
+selectCodeEditor("datapath.v", 113, 348, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 35 seconds
+selectCodeEditor("datapath.v", 139, 163); // cl (w, cp)
+selectCodeEditor("datapath.v", 139, 163, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 158, 215); // cl (w, cp)
+selectCodeEditor("datapath.v", 158, 215); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 137, 213); // cl (w, cp)
+selectCodeEditor("datapath.v", 127, 210); // cl (w, cp)
+selectCodeEditor("datapath.v", 159, 243); // cl (w, cp)
+selectCodeEditor("datapath.v", 147, 214); // cl (w, cp)
+selectCodeEditor("datapath.v", 166, 213); // cl (w, cp)
+selectCodeEditor("datapath.v", 135, 213); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 210); // cl (w, cp)
+selectCodeEditor("datapath.v", 187, 226); // cl (w, cp)
+selectCodeEditor("datapath.v", 115, 210); // cl (w, cp)
+selectCodeEditor("datapath.v", 116, 210); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("datapath.v", 156, 209); // cl (w, cp)
+selectCodeEditor("datapath.v", 156, 209, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 117, 314); // cl (w, cp)
+selectCodeEditor("datapath.v", 117, 314, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 129, 317); // cl (w, cp)
+selectCodeEditor("datapath.v", 129, 317, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 156, 63); // cl (w, cp)
+selectCodeEditor("datapath.v", 156, 63, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 109, 370); // cl (w, cp)
+selectCodeEditor("datapath.v", 109, 370, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 148, 334); // cl (w, cp)
+selectCodeEditor("datapath.v", 151, 333); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("datapath.v", 435, 234); // cl (w, cp)
+selectCodeEditor("datapath.v", 435, 234, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 76, 249); // cl (w, cp)
+selectCodeEditor("datapath.v", 76, 249); // cl (w, cp)
+selectCodeEditor("datapath.v", 82, 247); // cl (w, cp)
+selectCodeEditor("datapath.v", 85, 247); // cl (w, cp)
+selectCodeEditor("datapath.v", 153, 386); // cl (w, cp)
+selectCodeEditor("datapath.v", 104, 369); // cl (w, cp)
+selectCodeEditor("datapath.v", 111, 394); // cl (w, cp)
+selectCodeEditor("datapath.v", 135, 375); // cl (w, cp)
+selectCodeEditor("datapath.v", 133, 350); // cl (w, cp)
+selectCodeEditor("datapath.v", 129, 368); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("datapath.v", 351, 355); // cl (w, cp)
+selectCodeEditor("datapath.v", 348, 381); // cl (w, cp)
+selectCodeEditor("datapath.v", 325, 353); // cl (w, cp)
+selectCodeEditor("datapath.v", 317, 340); // cl (w, cp)
+selectCodeEditor("datapath.v", 304, 360); // cl (w, cp)
+selectCodeEditor("datapath.v", 298, 382); // cl (w, cp)
+selectCodeEditor("datapath.v", 297, 357); // cl (w, cp)
+selectCodeEditor("datapath.v", 296, 342); // cl (w, cp)
+selectCodeEditor("datapath.v", 288, 361); // cl (w, cp)
+selectCodeEditor("datapath.v", 290, 383); // cl (w, cp)
+selectCodeEditor("datapath.v", 290, 373); // cl (w, cp)
+selectCodeEditor("datapath.v", 291, 394); // cl (w, cp)
+selectCodeEditor("datapath.v", 291, 394); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectCodeEditor("datapath.v", 144, 397); // cl (w, cp)
+selectCodeEditor("datapath.v", 133, 397); // cl (w, cp)
+selectCodeEditor("datapath.v", 95, 418); // cl (w, cp)
+selectCodeEditor("datapath.v", 95, 418, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("datapath.v", 96, 435); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("datapath.v", 139, 433); // cl (w, cp)
+selectCodeEditor("datapath.v", 139, 433, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 201, 436); // cl (w, cp)
+selectCodeEditor("datapath.v", 104, 436); // cl (w, cp)
+selectCodeEditor("datapath.v", 97, 432); // cl (w, cp)
+selectCodeEditor("datapath.v", 232, 438); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("datapath.v", 125, 166); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("datapath.v", 40, 226); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 48, 172); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 200, 184); // cl (w, cp)
+selectCodeEditor("datapath.v", 51, 161); // cl (w, cp)
+selectCodeEditor("datapath.v", 50, 323); // cl (w, cp)
+selectCodeEditor("datapath.v", 66, 327); // cl (w, cp)
+selectCodeEditor("datapath.v", 66, 327, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 268, 375); // cl (w, cp)
+selectCodeEditor("datapath.v", 215, 342); // cl (w, cp)
+selectCodeEditor("datapath.v", 215, 321); // cl (w, cp)
+selectCodeEditor("datapath.v", 216, 279); // cl (w, cp)
+selectCodeEditor("datapath.v", 202, 330); // cl (w, cp)
+selectCodeEditor("datapath.v", 225, 326); // cl (w, cp)
+selectCodeEditor("datapath.v", 262, 299); // cl (w, cp)
+selectCodeEditor("datapath.v", 230, 325); // cl (w, cp)
+selectCodeEditor("datapath.v", 219, 307); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("datapath.v", 167, 245); // cl (w, cp)
+selectCodeEditor("datapath.v", 125, 215); // cl (w, cp)
+selectCodeEditor("datapath.v", 125, 217); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 213); // cl (w, cp)
+selectCodeEditor("datapath.v", 126, 215, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 149, 217); // cl (w, cp)
+selectCodeEditor("datapath.v", 149, 217, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'c'); // cl (w, cp)
+selectCodeEditor("datapath.v", 97, 241); // cl (w, cp)
+typeControlKey((HResource) null, "datapath.v", 'v'); // cl (w, cp)
+selectCodeEditor("datapath.v", 150, 264); // cl (w, cp)
+selectCodeEditor("datapath.v", 195, 270); // cl (w, cp)
+selectCodeEditor("datapath.v", 163, 331); // cl (w, cp)
+selectCodeEditor("datapath.v", 147, 341); // cl (w, cp)
+selectCodeEditor("datapath.v", 61, 351); // cl (w, cp)
+selectCodeEditor("datapath.v", 71, 296); // cl (w, cp)
+selectCodeEditor("datapath.v", 71, 296, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 66, 296); // cl (w, cp)
+selectCodeEditor("datapath.v", 88, 328); // cl (w, cp)
+selectCodeEditor("datapath.v", 81, 298); // cl (w, cp)
+selectCodeEditor("datapath.v", 136, 278); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("datapath.v", 74, 243); // cl (w, cp)
+selectCodeEditor("datapath.v", 74, 243, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("datapath.v", 74, 385); // cl (w, cp)
+selectCodeEditor("datapath.v", 197, 391); // cl (w, cp)
+selectCodeEditor("datapath.v", 142, 452); // cl (w, cp)
+selectCodeEditor("datapath.v", 59, 388); // cl (w, cp)
+selectCodeEditor("datapath.v", 58, 388, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 77, 191); // cl (w, cp)
+selectCodeEditor("datapath.v", 77, 191, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("datapath.v", 122, 193); // cl (w, cp)
+selectCodeEditor("datapath.v", 122, 189); // cl (w, cp)
+selectCodeEditor("datapath.v", 130, 214); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("datapath.v", 128, 188); // cl (w, cp)
+selectCodeEditor("datapath.v", 141, 200); // cl (w, cp)
+selectCodeEditor("datapath.v", 78, 194); // cl (w, cp)
+selectCodeEditor("datapath.v", 159, 166); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ABH (mux8b_ABH.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ABH (mux8b_ABH.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ABH (mux8b_ABH.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ABH (mux8b_ABH.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_SB (mux8b_SB.v)]", 11, false, true, false, false, false, false); // B (D, cp) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_adl(rtl) (mux_adl.vhd)]", 12, false, true, false, false, false, false); // B (D, cp) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg8b (reg8b.v)]", 15, false, false, true, false, false, false); // B (D, cp) - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux8b_ADH (mux8b_ADH.v)]", 8, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_ABH.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_ADH.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_A_ALU.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_B_ALU.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_SB.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux_adl.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/reg8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  {D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_ABH.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_ADH.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_A_ALU.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_B_ALU.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux8b_SB.v D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux_adl.vhd D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/reg8b.v} 
+dismissDialog("Remove Sources"); // bx (aE)
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectCodeEditor("register.v", 335, 26); // cl (w, cp)
+selectCodeEditor("register.v", 299, 107); // cl (w, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), pc_reg : program_counter16b (program_counter16b.v)]", 3, false); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 10, false); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 8, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), pc_reg : program_counter16b (program_counter16b.v)]", 3, false); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 8, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aE)
+// 'c' command handler elapsed time: 6 seconds
+dismissDialog("Remove Sources"); // aE (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter_tb (program_counter_tb.v)]", 3, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/program_counter_tb.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/program_counter_tb.v 
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: file delete -force D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/program_counter_tb.v 
+dismissDialog("Remove Sources"); // bx (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 7, false); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 4, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_tb (mux_tb.v)]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_divider (clk_divider.v)]", 5, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 7, false); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v), pc_reg : program_counter16b (program_counter16b.v)]", 3, false); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, program_counter16b (program_counter16b.v)]", 7, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/program_counter16b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/program_counter16b.v 
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: file delete -force D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/program_counter16b.v 
+dismissDialog("Remove Sources"); // bx (aE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, accumulator8b (accumulator8b.v)]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/accumulator8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/accumulator8b.v 
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: file delete -force D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ULA/accumulator8b.v 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, datapath (datapath.v)]", 1); // B (D, cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg8b (reg8b.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg8b (reg8b.v)]", 6, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/reg8b.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/reg8b.v 
+// Tcl Message: file delete -force D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/reg8b.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2); // B (D, cp)
+selectCodeEditor("register.v", 357, 142); // cl (w, cp)
+selectCodeEditor("register.v", 237, 212); // cl (w, cp)
+selectCodeEditor("register.v", 195, 145); // cl (w, cp)
+selectCodeEditor("register.v", 160, 78); // cl (w, cp)
+selectCodeEditor("register.v", 112, 26); // cl (w, cp)
+selectCodeEditor("register.v", 165, 4); // cl (w, cp)
+selectCodeEditor("register.v", 208, 37); // cl (w, cp)
+selectCodeEditor("register.v", 185, 69); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "datapath.v", 2); // k (j, cp)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3313 ms. Increasing delay to 9939 ms.
+// [GUI Memory]: 122 MB (+300kb) [01:07:59]
+// Elapsed time: 304 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'atariTop' in fileset 'sim_1'... 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj atariTop_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '5' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2018.3 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved. Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot atariTop_behav xil_defaultlib.atariTop xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module unisims_ver.IBUF Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=51.75... Compiling module unisims_ver.BUFG Compiling module xil_defaultlib.clk_wiz_0_clk_wiz Compiling module xil_defaultlib.clk_wiz_0 Compiling module xil_defaultlib.clk_divider Compiling module xil_defaultlib.atariTop Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot atariTop_behav 
+// Tcl Message:  ****** Webtalk v2018.3 (64-bit)   **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018   **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xsim.dir/atariTop_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Sat Jan 30 12:55:50 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 858.332 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '22' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "atariTop_behav -key {Behavioral:sim_1:Functional:atariTop} -tclbatch {atariTop.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  2035 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 52 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Tcl Message: open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 132 MB (+3560kb) [01:08:59]
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 819 MB. GUI used memory: 65 MB. Current time: 1/30/21, 1:56:12 PM BRST
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// Tcl Message: source atariTop.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 858.332 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'atariTop_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:55 . Memory (MB): peak = 858.332 ; gain = 0.000 
+// 'd' command handler elapsed time: 55 seconds
+dismissDialog("Run Simulation"); // e (cp)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 157 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "atariTop_behav.wcfg"); // w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cp)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - atariTop", "DesignTask.SIMULATION");
+// A (cp): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Close : addNotify
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+dismissDialog("Confirm Close"); // A (cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  2335 ms.
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 858.332 ; gain = 0.000 
+// Elapsed time: 13 seconds
+dismissDialog("Close"); // bx (cp)

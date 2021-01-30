@@ -1,7 +1,7 @@
-Running: xsim.dir/atariTop_behav/xsimk.exe -simmode gui -wdb atariTop_behav.wdb -simrunnum 0 -socket 49695
+Running: xsim.dir/atariTop_behav/xsimk.exe -simmode gui -wdb atariTop_behav.wdb -simrunnum 0 -socket 51335
 Design successfully loaded
-Design Loading Memory Usage: 6000 KB (Peak: 6000 KB)
+Design Loading Memory Usage: 6484 KB (Peak: 6484 KB)
 Design Loading CPU Usage: 31 ms
 Simulation completed
-Simulation Memory Usage: 7176 KB (Peak: 7176 KB)
-Simulation CPU Usage: 46 ms
+Simulation Memory Usage: 7584 KB (Peak: 7584 KB)
+Simulation CPU Usage: 62 ms
