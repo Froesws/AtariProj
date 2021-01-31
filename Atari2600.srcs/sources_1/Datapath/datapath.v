@@ -42,7 +42,7 @@ input load_ABH,
 input load_ABL,
 input sel_ai,
 input load_DOR,
-input wire[2:0] sel_bi,
+input wire[1:0] sel_bi,
 input wire[WIDTH-1:0] DL,
 input wire[WIDTH-1:0] ABH,
 input wire[WIDTH-1:0] ABL,
@@ -52,9 +52,7 @@ input load_acc,
 input cin_alu,
 input decEn_alu,
 input [3:0] op_alu,
-input hfc_alu,
-output cout_alu,
-output over_alu,
+output [3:0] alu_status,
 output reg [WIDTH-1:0] DOR
     );
 // Fios nomeados
@@ -258,9 +256,7 @@ alu8b alu(
     .carIn(cin_alu),
     .decEn(decEn_alu),
     .ALU_Oper(op_alu),
-    .hfCarry(hfc_alu),
-    .carOut(cout_alu),
-    .overflow(over_alu),
+    .alu_status(alu_status),
     .ALU_out(ALU_OUT)
 );
 //////////////////////////////////////////////////////////// END ALU //////////////////////////////////////////////////////

@@ -78,3 +78,6 @@ parameter ind_y = 'hD;
 parameter T0 = 'h00;
 parameter T1 ='h01;
 parameter T2 ='h02;
+parameter T3 ='h03;
+parameter T4 ='h04;
+parameter DELAY1 ='h05;
