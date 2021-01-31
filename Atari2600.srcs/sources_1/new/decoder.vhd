@@ -18,8 +18,7 @@
 -- 
 ----------------------------------------------------------------------------------
 
-library work;
-use work.my_types.ALL;
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -34,19 +33,37 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity decoder is
  Port (
- AAA: in std_logic_vector(2 downto 0);
- BBB: in std_logic_vector(2 downto 0);
- CC:  in std_logic_vector(1 downto 0);
- instruction : out decoded_instruction;
- mode: out address_mode
+ instruction_in: in std_logic_vector(7 downto 0);
+ operation : out std_logic_vector (7 downto 0);
+ adressing: out std_logic_vector (4 downto 0)
   );
 end Decoder;
  
  
 architecture rtl of Decoder is 
+type decoded_instruction is(
+        BRK, BPL, JSR, BMI, RTI, BVC, 
+        RTS, BVS, BCC, LDY, BCS, CPY, 
+        BNE, CPX, BEQ, BIT_1, STY,PHP, 
+        CLC, PLP, SEC, PHA, CLI, PLA, 
+        SEI, DEY, TYA, TAY, CLV, INY, 
+        CLD, INX, SED, ORA, AND_1, EOR, 
+        ADC, STA, LDA, CMP,SBC, ASL, ROL_1, 
+        LSR, ROR_1, STX, LDX, DEC, INC, TXA, 
+        TXS, TAX, TSX, DEX, NOP, JMP); 
 
+
+type address_mode is ( zpg,imd,abt, zpx, abs_y, abs_x, imp, rel, acc,
+                                    ind, x_ind, zpx_ind, zpy, ind_y);
+signal instruction: decoded_instruction;
+signal mode: address_mode;
+signal AAA: std_logic_vector(2 downto 0);
+signal BBB: std_logic_vector(2 downto 0);
+signal CC:  std_logic_vector(1 downto 0);
 begin
-
+AAA <= INSTRUCTION_IN(7 DOWNTO 5);
+BBB <= INSTRUCTION_IN(4 DOWNTO 2);
+CC <= INSTRUCTION_IN(1 DOWNTO 0);
 my_process_name : process(AAA,BBB,CC)
 begin
   case CC is
@@ -584,6 +601,84 @@ begin
         end if;
     end if;
 end case;
+end process;
 
+
+process_saida: process (instruction, mode)
+begin
+case (instruction) is
+    when BRK => OPERATION <= x"00";
+    when BPL => OPERATION <= x"01";
+    when JSR => OPERATION <= x"02";
+    when BMI => OPERATION <= x"03";
+    when RTI => OPERATION <= x"04";
+    when BVC => OPERATION <= x"05";
+    when RTS => OPERATION <= x"06";
+    when BVS => OPERATION <= x"07";
+    when BCC => OPERATION <= x"08";
+    when LDY => OPERATION <= x"09";
+    when BCS => OPERATION <= x"0A";
+    when CPY => OPERATION <= x"0B"; 
+    when BNE => OPERATION <= x"0C";
+    when CPX => OPERATION <= x"0D";
+    when BEQ => OPERATION <= x"0E";
+    when BIT_1 => OPERATION <= x"0F";
+    when STY => OPERATION <= x"10";
+    when PHP => OPERATION <= x"11";
+    when CLC => OPERATION <= x"12";
+    when PLP =>  OPERATION <= x"13";
+    when SEC => OPERATION <= x"14";
+    when PHA => OPERATION <= x"15";
+    when CLI => OPERATION <= x"16";
+    when PLA => OPERATION <= x"17";
+    when SEI => OPERATION <= x"18";
+    when DEY => OPERATION <= x"19";
+    when TYA => OPERATION <= x"1A";
+    when TAY => OPERATION <= x"1B";
+    when CLV => OPERATION <= x"1C";
+    when INY => OPERATION <= x"1D";
+    when CLD => OPERATION <= x"1E";
+    when INX => OPERATION <= x"1F";
+    when SED => OPERATION <= x"20";
+    when ORA => OPERATION <= x"21";
+    when AND_1 => OPERATION <= x"22";
+    when EOR => OPERATION <= x"23";
+    when ADC => OPERATION <= x"24";
+    when STA => OPERATION <= x"25";
+    when LDA => OPERATION <= x"26";
+    when CMP => OPERATION <= x"27";
+    when SBC => OPERATION <= x"28";
+    when ASL =>  OPERATION <= x"29";
+    when ROL_1 => OPERATION <= x"2A";
+    when LSR => OPERATION <= x"2B";
+    when ROR_1 => OPERATION <= x"2C";
+    when STX => OPERATION <= x"2D";
+    when LDX => OPERATION <= x"2E";
+    when DEC => OPERATION <= x"2F";
+    when INC => OPERATION <= x"30";
+    when TXA => OPERATION <= x"31";
+    when TXS => OPERATION <= x"32";
+    when TAX => OPERATION <= x"33";
+    when TSX => OPERATION <= x"34";
+    when DEX => OPERATION <= x"35";
+    when NOP => OPERATION <= x"36";
+    when JMP => OPERATION <= x"37";
+end case;
+    case (mode) is
+       when zpg => adressing <= x"0";
+       when imd => adressing <= x"1";
+       when abt => adressing <= x"2";
+       when zpx => adressing <= x"3";
+       when abs_y => adressing <= x"4";
+       when abs_x => adressing <= x"5";
+       when imp => adressing <= x"5";
+       when rel =>  adressing <= x"6";
+       when acc => adressing <= x"7";
+       when ind => adressing <= x"8";
+       when x_ind =>  adressing <= x"9";
+       when zpx_ind => adressing <= x"A";
+       when zpy => adressing <= x"B";
+       when ind_y => adressing <= x"C";
+   end case;
 end process;
 end rtl;
