@@ -28,6 +28,7 @@ module program_counter16b (
     input pcl_adl,
     input pch_adh,
     input brc,
+    input pc_inc,
     output reg[7:0] pcl,
     output reg[7:0] pch
 );
@@ -45,7 +46,8 @@ reg[15:0] pc;
             pc[7:0] <= adl;
           if(brc)
             pc <= pc+adl;
-        pc = pc+1;
+          if(pc_inc)
+            pc = pc+1;
       end
   end  
 endmodule

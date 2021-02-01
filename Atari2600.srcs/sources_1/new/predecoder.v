@@ -22,7 +22,7 @@
 
 module predecoder( 
     input wire[7:0] data_bus,
-    input reset,
+    input wire reset,
     output reg [3:0] cycle,
     output reg[7:0] instruction,
     output reg RMW

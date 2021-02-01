@@ -81,7 +81,7 @@ program_counter16b pc_reg (
     .pcl_adl(pcl_adl),
     .pch_adh(pch_adh),
     .brc(brc),
-    .inc(pc_inc),
+    .pc_inc(pc_inc),
     .adh(ADH),
     .adl(ADL),
     .pcl(PCL),
@@ -176,14 +176,14 @@ mux_2 SB_ai(
 .sel(sel_ai),
 .in_0(SB),
 .in_1(8'h00),
-.out(mux_ai)
+.o_mux(mux_ai)
 );
 // MUX ADH_ABH
 mux_2 ADH_ABH(
 .sel(sel_ABH),
 .in_0(ADH),
 .in_1(8'hff),
-.out(mux_ABH)
+.o_mux(mux_ABH)
 );
 
 // MUX DB_BI
@@ -193,7 +193,7 @@ mux_4 DB_bi(
 .in_1(~DB),
 .in_2(DB),
 .in_3(8'h00),
-.out(mux_bi)
+.o_mux(mux_bi)
 );
 
 // MUX SB
@@ -207,7 +207,7 @@ mux_8 mux_SB(
 .in_5(acc),
 .in_6(8'h00),
 .in_7(8'h00),
-.out(SB)
+.o_mux(SB)
 );
 
 // MUX ADH
@@ -217,7 +217,7 @@ mux_4 mux_ADH(
 .in_1('h00),
 .in_2(SB),
 .in_3(PCH),
-.out(ADH)
+.o_mux(ADH)
 );
 // MUX DB
 mux_8 mux_DB(
@@ -230,7 +230,7 @@ mux_8 mux_DB(
 .in_5(8'h00),
 .in_6(8'h00),
 .in_7(8'h00),
-.out(DB)
+.o_mux(DB)
 );
 // MUX ADL
 mux_8 mux_ADL(
@@ -243,7 +243,7 @@ mux_8 mux_ADL(
 .in_5(8'h00),
 .in_6(8'h00),
 .in_7(8'h00),
-.out(DB)
+.o_mux(DB)
 );
 
 //////////////////////////////////////////////////// End Mux /////////////////////////////////////////////////////////
@@ -252,8 +252,8 @@ alu8b alu(
     .AI(ai),
     .BI(bi),
     .carIn('b0),
-    .ALU_Oper(op_alu),
-    .alu_status(alu_status),
+    .ALU_oper(op_alu),
+    .ALU_status(alu_status),
     .ALU_out(ALU_OUT)
 );
 //////////////////////////////////////////////////////////// END ALU //////////////////////////////////////////////////////

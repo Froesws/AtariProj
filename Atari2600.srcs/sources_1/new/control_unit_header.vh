@@ -1,5 +1,5 @@
 module header();
-// Instru��es
+// Instrucoes
 parameter BRK = 'h00;
 parameter BPL = 'h01;
 parameter JSR = 'h02;
@@ -58,7 +58,7 @@ parameter NOP = 'h36;
 parameter JMP = 'h37;
 
 
-// Mode de Endera�amento
+// Mode de Enderacamento
 parameter zpg ='h0;
 parameter imd ='h1;
 parameter abt ='h2;

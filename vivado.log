@@ -2,109 +2,1839 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Feb  1 00:11:10 2021
-# Process ID: 4684
-# Current directory: C:/Users/User/Desktop/Atari
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5104 C:\Users\User\Desktop\Atari\Atari2600.xpr
-# Log file: C:/Users/User/Desktop/Atari/vivado.log
-# Journal file: C:/Users/User/Desktop/Atari\vivado.jou
+# Start of session at: Mon Feb  1 09:31:13 2021
+# Process ID: 7860
+# Current directory: D:/Projetos/atari/AtariProj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1288 D:\Projetos\atari\AtariProj\Atari2600.xpr
+# Log file: D:/Projetos/atari/AtariProj/vivado.log
+# Journal file: D:/Projetos/atari/AtariProj\vivado.jou
 #-----------------------------------------------------------
-Sourcing tcl script 'C:/Users/User/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
 start_gui
-open_project C:/Users/User/Desktop/Atari/Atari2600.xpr
-WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/predecoder.v:]
+open_project D:/Projetos/atari/AtariProj/Atari2600.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/User/Desktop/Atari' since last save.
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v:]
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'c:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'c:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'c:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'c:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'c:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl'. Please regenerate to continue.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 740.227 ; gain = 135.910
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programas/xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:28 . Memory (MB): peak = 734.965 ; gain = 151.965
 update_compile_order -fileset sources_1
 launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj top6502_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module header
-INFO: [VRFC 10-311] analyzing module control_unit
-ERROR: [VRFC 10-2989] 'T0' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:74]
-ERROR: [VRFC 10-2989] 'T0' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:84]
-ERROR: [VRFC 10-2989] 'T1' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:86]
-ERROR: [VRFC 10-2989] 'T1' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:88]
-ERROR: [VRFC 10-2989] 'DEY' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:93]
-ERROR: [VRFC 10-2989] 'DEX' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:105]
-ERROR: [VRFC 10-2989] 'CLC' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:117]
-ERROR: [VRFC 10-2989] 'CLC' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:119]
-ERROR: [VRFC 10-2989] 'CLD' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:120]
-ERROR: [VRFC 10-2989] 'CLI' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:121]
-ERROR: [VRFC 10-2989] 'NOP' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:126]
-ERROR: [VRFC 10-2989] 'PHA' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:129]
-ERROR: [VRFC 10-2989] 'PHP' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:140]
-ERROR: [VRFC 10-2989] 'PLA' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:152]
-ERROR: [VRFC 10-2989] 'LSR' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:162]
-ERROR: [VRFC 10-2989] 'abt' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:163]
-ERROR: [VRFC 10-2989] 'T2' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:170]
-ERROR: [VRFC 10-2989] 'T2' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:172]
-ERROR: [VRFC 10-2989] 'DEY' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:179]
-INFO: [#UNDEF] Sorry, too many errors..
-"xvhdl --incr --relax -prj top6502_vhdl.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
-INFO: [USF-XSim-99] Step results log file:'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
-ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
-ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
-ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-set_property top control_unit [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
 "xvlog --incr --relax -prj control_unit_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module header
 INFO: [VRFC 10-311] analyzing module control_unit
-ERROR: [VRFC 10-2989] 'T0' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:74]
-ERROR: [VRFC 10-2989] 'T0' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:84]
-ERROR: [VRFC 10-2989] 'T1' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:86]
-ERROR: [VRFC 10-2989] 'T1' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:88]
-ERROR: [VRFC 10-2989] 'DEY' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:93]
-ERROR: [VRFC 10-2989] 'DEX' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:105]
-ERROR: [VRFC 10-2989] 'CLC' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:117]
-ERROR: [VRFC 10-2989] 'CLC' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:119]
-ERROR: [VRFC 10-2989] 'CLD' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:120]
-ERROR: [VRFC 10-2989] 'CLI' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:121]
-ERROR: [VRFC 10-2989] 'NOP' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:126]
-ERROR: [VRFC 10-2989] 'PHA' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:129]
-ERROR: [VRFC 10-2989] 'PHP' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:140]
-ERROR: [VRFC 10-2989] 'PLA' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:152]
-ERROR: [VRFC 10-2989] 'LSR' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:162]
-ERROR: [VRFC 10-2989] 'abt' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:163]
-ERROR: [VRFC 10-2989] 'T2' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:170]
-ERROR: [VRFC 10-2989] 'T2' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:172]
-ERROR: [VRFC 10-2989] 'DEY' is not declared [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/control_unit.v:179]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
 INFO: [#UNDEF] Sorry, too many errors..
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-99] Step results log file:'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
-ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/User/Desktop/Atari/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 773.191 ; gain = 1.016
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property is_enabled false [get_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
 ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
 ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-exit
-INFO: [Common 17-206] Exiting Vivado at Mon Feb  1 00:17:11 2021...
+set_property is_enabled false [get_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/atariTop.v]
+set_property is_enabled false [get_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/clk_divider.v]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property is_enabled false [get_files  {D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux_db.vhd D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/mux_tb.v}]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:102]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:114]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:126]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:128]
+ERROR: [VRFC 10-2989] 'CLD' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:129]
+ERROR: [VRFC 10-2989] 'CLI' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:130]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:135]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:138]
+ERROR: [VRFC 10-2989] 'PHP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:149]
+ERROR: [VRFC 10-2989] 'PLA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:161]
+ERROR: [VRFC 10-2989] 'LSR' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:171]
+ERROR: [VRFC 10-2989] 'abt' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:172]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:188]
+ERROR: [VRFC 10-2989] 'DEY' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:189]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:202]
+ERROR: [VRFC 10-2989] 'DEX' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:203]
+ERROR: [VRFC 10-2989] 'CLC' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:216]
+ERROR: [VRFC 10-2989] 'NOP' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:224]
+ERROR: [VRFC 10-2989] 'PHA' is not declared [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v:227]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programas/xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'control_unit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj control_unit_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot control_unit_behav xil_defaultlib.control_unit xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot control_unit_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xsim.dir/control_unit_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Feb  1 12:42:48 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 791.219 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '20' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "control_unit_behav -key {Behavioral:sim_1:Functional:control_unit} -tclbatch {control_unit.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source control_unit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 801.629 ; gain = 10.410
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'control_unit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 801.629 ; gain = 10.410
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 807.152 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+open_project D:/Projetos/atari/AtariProj/Atari2600.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v:]
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programas/xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 807.152 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property top top6502 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset clk_wiz_0 D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+INFO: [Project 1-386] Moving file 'D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/clk_divider.v] -no_script -reset -force -quiet
+remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/clk_divider.v
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/mux_tb.v] -no_script -reset -force -quiet
+remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/mux_tb.v
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux_db.vhd] -no_script -reset -force -quiet
+remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/mux_db.vhd
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/atariTop.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/atariTop.v
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8d.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library work
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2458] undeclared symbol addressing_mode, assumed default net type wire [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:131]
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/Mux_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/decoder.vhd" into library my_types
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/mux_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/mux_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_8'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 807.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'inc' on this module [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v:84]
+ERROR: [VRFC 10-3180] cannot find port 'alu_status' on this module [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v:256]
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predcd> [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:134]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 807.168 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8d.v] -no_script -reset -force -quiet
+remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8d.v
+add_files -norecurse D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+ERROR: [VRFC 10-2651] assignment sub expression is allowed only in SystemVerilog mode [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v:104]
+ERROR: [VRFC 10-2865] module 'alu8b' ignored due to previous errors [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v:23]
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 819.605 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 819.605 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'ALU_Oper' on this module [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v:255]
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predcd> [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:134]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 819.605 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3148] binding vhdl entity 'mux_2_default' does not have port 'out' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v:175]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 819.605 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/mux_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_2'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:123]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'addressing_mode' is not permitted [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:131]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 819.605 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:123]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top6502_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xsim.dir/top6502_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Feb  1 16:06:45 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 819.605 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top6502_behav -key {Behavioral:sim_1:Functional:top6502} -tclbatch {top6502.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source top6502.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top6502_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:23 . Memory (MB): peak = 819.605 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 830.051 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predcd> [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:136]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 830.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predcd> [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:137]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 830.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library work
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predcd> [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:137]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 830.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predecod> [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:137]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 831.422 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v] -no_script -reset -force -quiet
+remove_files  D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v
+add_files -norecurse D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top6502' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top6502_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+"xvhdl --incr --relax -prj top6502_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:126]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:140]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top6502_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 831.422 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top6502_behav -key {Behavioral:sim_1:Functional:top6502} -tclbatch {top6502.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source top6502.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top6502_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 831.422 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 844.324 ; gain = 0.000
+close [ open D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v w ]
+add_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v
+update_compile_order -fileset sources_1
+close [ open D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v w ]
+add_files D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v
+update_compile_order -fileset sources_1
+set_property top tb_6502top [current_fileset]
+update_compile_order -fileset sources_1
+set_property top tb_6502top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v:34]
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v:44]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 855.215 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim/xsim.dir/tb_6502top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Feb  1 18:52:26 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 855.215 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:24 . Memory (MB): peak = 855.215 ; gain = 0.000
+run 10 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 855.215 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 855.215 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 855.215 ; gain = 0.000
+run 10 ms
+run 10 ms
+run 10 ms
+run 10 ms
+run 10 ms
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 861.789 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 882.176 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 882.176 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 882.176 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 882.996 ; gain = 0.820
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+run 840 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 916.488 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 919.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 926.961 ; gain = 7.078
+run 840 ns
+run 840 ns
+run 840 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 974.742 ; gain = 42.848
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 974.742 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 977.352 ; gain = 2.609
+run 840 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1247.832 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1247.832 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1247.832 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1247.832 ; gain = 0.000
+run 840 ns
+run 840 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1247.832 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1247.832 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1247.832 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1247.832 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1247.832 ; gain = 0.000
+run 200 ms
+run 200 ms
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 ms
+run 200 ms
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1247.832 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_6502top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_6502top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top6502
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/alu8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module header
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/predecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module predecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/program_counter16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/Datapath/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/tb_6502top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_6502top
+"xvhdl --incr --relax -prj tb_6502top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L my_types -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_6502top_behav xil_defaultlib.tb_6502top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'sel_bi' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'cycle' [D:/Projetos/atari/AtariProj/Atari2600.srcs/sources_1/new/6502top.v:141]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.program_counter16b
+Compiling module xil_defaultlib.register
+Compiling architecture rtl of entity xil_defaultlib.Mux_2 [mux_2_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_4 [mux_4_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux_8 [mux_8_default]
+Compiling module xil_defaultlib.alu8b
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control_unit
+Compiling architecture rtl of entity my_types.decoder [decoder_default]
+Compiling module xil_defaultlib.predecoder
+Compiling module xil_defaultlib.top6502
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.tb_6502top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_6502top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1247.832 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Projetos/atari/AtariProj/Atari2600.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_6502top_behav -key {Behavioral:sim_1:Functional:tb_6502top} -tclbatch {tb_6502top.tcl} -view {D:/Projetos/atari/AtariProj/atariTop_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/Projetos/atari/AtariProj/atariTop_behav.wcfg
+WARNING: Simulation object /atariTop/rst was not found in the design.
+WARNING: Simulation object /atariTop/clk_8_33mhz was not found in the design.
+WARNING: Simulation object /atariTop/phi_1 was not found in the design.
+WARNING: Simulation object /atariTop/phi_2 was not found in the design.
+source tb_6502top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_6502top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1247.832 ; gain = 0.000
+run 200 ms
+run 200 ms
+run 200 ms
+run 200 ms
+run 200 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1247.832 ; gain = 0.000

@@ -21,10 +21,15 @@
 
 
 module top6502(
-    );
-     
-         reg clk;
-         reg rst;
+        input [7:0] DL ,
+        input wire clk,
+        input wire rst,
+        output wire mem_wrt,
+        output [7:0] DOR,
+        output wire [7:0] ABH,
+        output wire [7:0] ABL
+);
+
          wire brc;
          wire pc_inc;
          wire load_x;
@@ -42,9 +47,7 @@ module top6502(
          wire sel_ai;
          wire load_DOR;
          wire [1:0] sel_bi;
-         wire [7:0] DL;
-         wire [7:0] ABH;
-         wire [7:0] ABL;
+        
          wire pcl_adl;
          wire pch_adh;
          wire load_acc;
@@ -52,15 +55,16 @@ module top6502(
          wire decEn_alu;
          wire [3:0] op_alu;
          wire [3:0] alu_status;
-         wire [7:0] DOR;
          wire sync;
          wire [2:0] cycles;
          wire [7:0] instruction;
-         reg [3:0] addresing_mode;
+         wire [3:0] addressing_mode;
          wire [7:0] out_P;
-         wire mem_wrt;
          wire [7:0] ir;
          wire [7:0] in_ir;
+         wire [7:0] data_bus;
+         wire RMW;
+
          
 datapath dp (
     .clk(clk),
@@ -94,14 +98,14 @@ datapath dp (
 );
     
     control_unit uc (
-    .clk(clk),
-         .rst(rst), 
+        .clk(clk),
+        .rst(rst), 
         .sync(sync),
         .load_s(load_s),
         .load_acc(load_acc),
-         .instruction(instruction),
-         .addressing_mode(addresing_mode),
-         .alu_status(alu_status),
+        .instruction(instruction),
+        .addressing_mode(addressing_mode),
+        .alu_status(alu_status),
         .cycles(cycles),
         .sel_ADH(sel_ADH),
         .sel_ADL(sel_ADL),
@@ -131,14 +135,14 @@ datapath dp (
     .addressing(addressing_mode)
     );
     
-    predecoder predcd(
-     .data_bus(),
+    predecoder predecod(
+     .data_bus(data_bus),
      .reset(rst),
      .cycle(cycles),
       .instruction(in_ir),
-      .RMW()
+      .RMW(RMW)
     );
-    
+      
     register ir_reg (
     .clk(clk),
     .rst(rst),

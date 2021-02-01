@@ -25,10 +25,8 @@ module alu8b(
     input [7:0] BI,
     input carIn,
     input decEn,
-    input [3:0] ALU_Oper,
-    output hfCarry,
-    output carOut,
-    output overflow,
+    input [3:0] ALU_oper,
+    output [3:0] ALU_status,
     output [7:0] ALU_out
     );
 
@@ -39,12 +37,14 @@ reg tempCarryOut;
 reg tempCarryOut_prev;
 reg tempHfCarry;
 reg overflowReg;
+wire zero;
+wire neg;
 
 
 
 always @* begin
         
-    case(ALU_Oper)
+    case(ALU_oper)
         4'b0000: // Addition
            begin
                 {tempCarryOut,result} = AI + BI + carIn ;
@@ -82,14 +82,14 @@ always @* begin
                 tempCarryOut = 'b0;
                 tempHfCarry = 'b0;
            end      
-        4'b0110: //  Logical Increase
+        4'b0110: //  Logical Increment
            begin
                 {tempCarryOut,result} = BI + 'h01;
                 {tempHfCarry,tempResult}= BI[3:0] + 'h1;
                 {tempCarryOut_prev,tempResultPrev}= BI[6:0] + 'b000001;
                 overflowReg = (~(BI[7]) & tempCarryOut_prev) |~ tempCarryOut_prev;
            end      
-        4'b0111: //  Logical Decrease
+        4'b0111: //  Logical Decrement
            begin
                 {tempCarryOut,result} = BI - 'h01;
                 {tempHfCarry,tempResult}= BI[3:0] - 'h1;
@@ -100,8 +100,14 @@ always @* begin
 end        
 
 assign ALU_out = result;
-assign overflow = overflowReg;
-assign hfCarry = tempHfCarry;
-assign carOut = tempCarryOut;
+
+assign zero = (result == 'h00) ? 'b1 : 'b0;
+
+xor u(neg,result[7],overflowReg);
+
+assign ALU_status[3] = tempCarryOut;
+assign ALU_status[2] = zero;
+assign ALU_status[1] = overflowReg;
+assign ALU_status[0] = neg;
 
 endmodule
