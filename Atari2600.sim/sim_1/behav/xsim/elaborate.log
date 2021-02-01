@@ -1,18 +1,10 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: D:/Programas/xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot atariTop_behav xil_defaultlib.atariTop xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d48be0c7c65d41bdaedcef58e1d8adbe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L my_types -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top6502_behav xil_defaultlib.top6502 xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module unisims_ver.IBUF
-Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=51.75...
-Compiling module unisims_ver.BUFG
-Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
-Compiling module xil_defaultlib.clk_wiz_0
-Compiling module xil_defaultlib.clk_divider
-Compiling module xil_defaultlib.atariTop
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot atariTop_behav
+ERROR: [VRFC 10-3180] cannot find port 'inc' on this module [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/Datapath/datapath.v:84]
+ERROR: [VRFC 10-3180] cannot find port 'alu_status' on this module [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/Datapath/datapath.v:256]
+ERROR: [VRFC 10-2063] Module <control_unit> not found while processing module instance <uc> [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/6502top.v:96]
+ERROR: [VRFC 10-2063] Module <predecoder> not found while processing module instance <predcd> [C:/Users/User/Desktop/Atari/Atari2600.srcs/sources_1/new/6502top.v:134]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

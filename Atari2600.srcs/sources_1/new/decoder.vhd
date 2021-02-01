@@ -35,12 +35,12 @@ entity decoder is
  Port (
  instruction_in: in std_logic_vector(7 downto 0);
  operation : out std_logic_vector (7 downto 0);
- adressing: out std_logic_vector (4 downto 0)
+ addressing: out std_logic_vector (3 downto 0)
   );
 end Decoder;
  
  
-architecture rtl of Decoder is 
+architecture rtl of decoder is 
 type decoded_instruction is(
         BRK, BPL, JSR, BMI, RTI, BVC, 
         RTS, BVS, BCC, LDY, BCS, CPY, 
@@ -665,20 +665,20 @@ case (instruction) is
     when JMP => OPERATION <= x"37";
 end case;
     case (mode) is
-       when zpg => adressing <= x"0";
-       when imd => adressing <= x"1";
-       when abt => adressing <= x"2";
-       when zpx => adressing <= x"3";
-       when abs_y => adressing <= x"4";
-       when abs_x => adressing <= x"5";
-       when imp => adressing <= x"5";
-       when rel =>  adressing <= x"6";
-       when acc => adressing <= x"7";
-       when ind => adressing <= x"8";
-       when x_ind =>  adressing <= x"9";
-       when zpx_ind => adressing <= x"A";
-       when zpy => adressing <= x"B";
-       when ind_y => adressing <= x"C";
+       when zpg => addressing <= x"0";
+       when imd => addressing <= x"1";
+       when abt => addressing <= x"2";
+       when zpx => addressing <= x"3";
+       when abs_y => addressing <= x"4";
+       when abs_x => addressing <= x"5";
+       when imp => addressing <= x"5";
+       when rel =>  addressing <= x"6";
+       when acc => addressing <= x"7";
+       when ind => addressing <= x"8";
+       when x_ind =>  addressing <= x"9";
+       when zpx_ind => addressing <= x"A";
+       when zpy => addressing <= x"B";
+       when ind_y => addressing <= x"C";
    end case;
 end process;
 end rtl;

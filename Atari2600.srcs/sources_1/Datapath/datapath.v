@@ -27,7 +27,7 @@ WIDTH = 8
 input clk,
 input rst,
 input brc,
-input inc,
+input pc_inc,
 input load_x,
 input load_y,
 input wire[2:0] sel_SB,
@@ -49,11 +49,9 @@ input wire[WIDTH-1:0] ABL,
 input pcl_adl,
 input pch_adh,
 input load_acc,
-input cin_alu,
-input decEn_alu,
 input [3:0] op_alu,
 output [3:0] alu_status,
-output reg [WIDTH-1:0] DOR
+output wire [WIDTH-1:0] DOR
     );
 // Fios nomeados
  wire [WIDTH-1:0] mux_ABH;
@@ -83,7 +81,7 @@ program_counter16b pc_reg (
     .pcl_adl(pcl_adl),
     .pch_adh(pch_adh),
     .brc(brc),
-    .inc(inc),
+    .inc(pc_inc),
     .adh(ADH),
     .adl(ADL),
     .pcl(PCL),
@@ -253,8 +251,7 @@ mux_8 mux_ADL(
 alu8b alu(
     .AI(ai),
     .BI(bi),
-    .carIn(cin_alu),
-    .decEn(decEn_alu),
+    .carIn('b0),
     .ALU_Oper(op_alu),
     .alu_status(alu_status),
     .ALU_out(ALU_OUT)

@@ -1,5 +1,5 @@
-
-// Instruções
+module header();
+// Instruï¿½ï¿½es
 parameter BRK = 'h00;
 parameter BPL = 'h01;
 parameter JSR = 'h02;
@@ -58,7 +58,7 @@ parameter NOP = 'h36;
 parameter JMP = 'h37;
 
 
-// Mode de Enderaçamento
+// Mode de Enderaï¿½amento
 parameter zpg ='h0;
 parameter imd ='h1;
 parameter abt ='h2;
@@ -80,4 +80,9 @@ parameter T1 ='h01;
 parameter T2 ='h02;
 parameter T3 ='h03;
 parameter T4 ='h04;
-parameter DELAY1 ='h05;
+parameter T5 ='h05;
+parameter T6 ='h06;
+parameter T7 ='h07;
+parameter DELAY1 ='hFF;
+
+endmodule
